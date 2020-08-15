@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround_blur"
+    tools:context="com.dream.freddie.onlineattendanceverification.activity.MainActivity" >
+
+    <TextView
+        android:textSize="15sp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="99dp"
+        android:text="@string/select_branch"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#f9fafa"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp" />
+
+    <Spinner
+        android:id="@+id/spinnerbranchView"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spinneryearView"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_alignRight="@+id/spinneryearView" />
+
+    <TextView
+        android:textSize="15sp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="224dp"
+        android:text="@string/select_year"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#f9fafa" />
+
+    <Spinner
+        android:id="@+id/spinneryearView"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="192dp"
+        android:background="#fd1d4165"
+        android:text="@string/submit"
+        android:textColor="#fafafb"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

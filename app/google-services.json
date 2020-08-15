@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "669784262071",
+    "firebase_url": "https://onlineattendanceverification.firebaseio.com",
+    "project_id": "onlineattendanceverification",
+    "storage_bucket": "onlineattendanceverification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669784262071:android:cd5fd50bc87bc675",
+        "android_client_info": {
+          "package_name": "com.dream.freddie.onlineattendanceverification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669784262071-8dfec860csl80i6qnq64um8m8ud68du2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dream.freddie.onlineattendanceverification",
+            "certificate_hash": "0b10ba62122850b319ff5f9dae5c18ad9f188d23"
+          }
+        },
+        {
+          "client_id": "669784262071-i7r2tgef85fuehn8vd13mgmb5988r0bm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCmNpuo9YM3kZ6fDTnlea8eekgDaQsfiI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669784262071-i7r2tgef85fuehn8vd13mgmb5988r0bm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

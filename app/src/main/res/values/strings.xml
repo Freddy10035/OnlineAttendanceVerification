@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Online Attendance Verification</string>
+    <string name="start">Get Started</string>
+    <string name="welcome">WELCOME</string>
+    <string name="login_here">Login here..</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="app_icon">App_icon</string>
+    <string name="p">P</string>
+    <string name="a">A</string>
+    <string name="submit">Submit</string>
+    <string name="select_branch">Select branch</string>
+    <string name="select_year">Select year</string>
+    <string name="view_student">View student</string>
+    <string name="attendance_per_student">Attendance Per Student</string>
+    <string name="logout">Logout</string>
+    <string name="view_faculty">View faculty</string>
+    <string name="add_faculty">Add faculty</string>
+    <string name="add_student">Add student</string>
+    <string name="icon">Icon</string>
+    <string name="select_dept">Select dept</string>
+    <!--<string name="select_year">Select year</string>-->
+    <string name="calender">calender</string>
+    <string name="view_attendance">View Attendance</string>
+    <string name="view_total_attendance">View Total Attendance</string>
+    <string name="subject">Subject</string>
+    <string name="add_attendance">Add Attendance</string>
+    <string name="password_icon">password_icon</string>
+    <string name="username_icon">username_icon</string>
+    <!--<string name="submit">Submit</string>-->
+</resources>

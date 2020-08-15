@@ -1,0 +1,113 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround_blur"
+    tools:context="com.dream.freddie.onlineattendanceverification.activity.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="@string/login_here"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fdfeff" />
+
+    <EditText
+        android:id="@+id/editTextpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="336dp"
+        android:ems="10"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:textColor="#feffff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editTextpassword"
+        android:layout_marginBottom="402dp"
+        android:text="@string/password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fdfeff" />
+
+    <TextView
+        android:textColor="#fdfeff"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextusername"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="110dp"
+        android:text="@string/username"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignStart="@+id/editTextusername" />
+
+    <EditText
+        android:id="@+id/editTextusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="218dp"
+        android:ems="10"
+        android:hint="@string/enter_username"
+        android:inputType=""
+        android:textColor="#feffff">
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinnerloginas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="108dp" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="257dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:background="#fd1d4165"
+        android:text="@string/login"
+        android:textColor="#fafafb" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="57dp"
+        android:layout_height="39dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_toStartOf="@+id/editTextpassword"
+        android:contentDescription="@string/password_icon"
+        android:src="@drawable/password_icon" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="58dp"
+        android:layout_height="41dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toStartOf="@+id/editTextpassword"
+        android:contentDescription="@string/username_icon"
+        android:src="@drawable/username_icon" />
+
+</RelativeLayout>
